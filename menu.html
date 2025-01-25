@@ -9,14 +9,16 @@
 <body>
     <header>
 		<img src="logo.webp" alt="Dan's Bistro Logo">
-        <h1>Welcome to Dan's Bistro</h1>
-        <p>Enjoy our carefully crafted dishes, made with fresh ingredients.</p>
+        <div>  <!--div is used to wrap here, that flexbox is , without div tag, img src, h1, and p all were directly inside header so they are all called siblings, but after div is added then they are childer of div, here this div tag is used bcoz it is used just for  presentational purposes , otherwise it is not advisable to use this, like for only glex it would go side by side may be-->
+         <h1>Welcome to Dan's Bistro</h1>
+         <p>Enjoy our carefully crafted dishes, made with fresh ingredients.</p>
+        </div>
     </header>
-	
+	<!--it is called menu html because here we are c\not considering this page as the homepage of website, if it is the homepage then it would be index only-->
     <main>
         <section id="appetizers">
             <h2>Appetizers</h2>
-            <ul>
+            <ul><!--span tag is an empty container-->
                 <li><span>Bruschetta</span> - Grilled bread topped with fresh tomatoes, garlic, and basil</li>
                 <li><span>Stuffed Mushrooms</span> - Button mushrooms filled with a creamy cheese and herb mixture</li>
                 <li><span>Calamari</span> - Crispy fried squid served with marinara sauce</li>

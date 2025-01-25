@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;   
+      }                                    /*i always start css file like this.... figure out properly, why*/
+
+      header{
+        background-color: #dccfba;  /*dont add color to logo ka background, follow your design teacher's advice, test on small parts of code to know if it is working or is there any error*/
+        display:flex;
+        align-items: center;
+        gap:1rem;
+
+      }
+
+      main{
+        
+        display:flex;
+        gap:1rem;   /*avoid to use pixels, use rem or anything else*/
+      }
+
+      section{
+        /*border: 1px solid red;*/
+        flex:1;
+      }
+      #appetizers{
+        flex:2;
+      }
+
+      /*this is about flexboxthe restaurant decides to remove soups and salad, you delete it from html, it would make the coloumns wider, similarly, if you add three more, it would automatically fit them in and adjust the measurements.
+
+      /*now we work on the header to put items beside the logo. we will write that above the main thing here, bcoz that is at the top, so to structurre that way
+         /*in css read this below thing backwards to understand better, span in li in ul in section, to get even more crazy , using appetizer in place of section*/
+      /*section*/  ul li span{
+        font-weight: bold;
+      }
